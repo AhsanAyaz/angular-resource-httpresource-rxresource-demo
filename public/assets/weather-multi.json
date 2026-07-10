@@ -1,0 +1,14 @@
+[
+  {
+    "city": "Stockholm",
+    "temperature": 14,
+    "condition": "Light rain",
+    "icon": "https://openweathermap.org/img/wn/10d@2x.png"
+  },
+  {
+    "city": "Milan",
+    "temperature": 27,
+    "condition": "Clear sky",
+    "icon": "https://openweathermap.org/img/wn/01d@2x.png"
+  }
+]
