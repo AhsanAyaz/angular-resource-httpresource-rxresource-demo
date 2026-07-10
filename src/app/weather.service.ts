@@ -1,16 +1,15 @@
-import { inject, Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { delay, Observable } from 'rxjs';
+import { Injectable } from '@angular/core';
+import { EMPTY, Observable } from 'rxjs';
 import { WeatherData } from './weather.types';
 
+/**
+ * Scaffold stub. Step 3 recreates the real HttpClient-backed body.
+ */
 @Injectable({
   providedIn: 'root',
 })
 export class WeatherService {
-  private http = inject(HttpClient);
-
   getWeather(): Observable<WeatherData> {
-    // Simulate an API call with a delayed response so the loading state is visible.
-    return this.http.get<WeatherData>('assets/weather.json').pipe(delay(1200));
+    return EMPTY;
   }
 }
