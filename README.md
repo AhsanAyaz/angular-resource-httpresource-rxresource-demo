@@ -1,4 +1,33 @@
-# AngularResourceHttpresourceRxresourceDemo
+# resource() vs httpResource() vs rxResource() (Angular v22) - work-along demo
+
+Companion app for the "resource() vs httpResource() vs rxResource()" Angular v22 video. You
+build it up one step at a time, with an AI agent, exactly like in the video. All three APIs
+expose the same signal surface (`value()`, `isLoading()`, `error()`, `reload()`); they differ
+only in how you tell them to fetch.
+
+## Work along with me
+
+1. Clone this repo and check out the `start` branch (scaffold only):
+   ```bash
+   git checkout start
+   npm install
+   ng serve
+   ```
+2. Open the repo in **Claude Code** or **Gemini CLI / Antigravity**. Everything the agent needs
+   ships in this repo (`.video-steps/`, `.claude/`, `.gemini/`), so there is nothing global to
+   install.
+3. Watch the matching part of the video, then tell the agent:
+   ```
+   run step 1
+   ```
+   It applies that step's code and writes a short `STEP-1-EXPLAINED.md`. In Gemini you can also
+   use `/run-step 1`.
+4. Repeat "run step 2" and "run step 3". After step 3 the app matches the finished `main` branch.
+
+Each step maps to a Part of the video: 1 `resource()` with reactive params, 2 `httpResource()`
+with a URL function, 3 `rxResource()` with the `stream` option.
+
+---
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.6.
 
