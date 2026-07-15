@@ -30,7 +30,7 @@ import { RxResourceExampleComponent } from './rx-resource-example/rx-resource-ex
         >. Full deep-dive in
         <a
           class="link link-primary"
-          href="https://leanpub.com/mastering-angular-signals"
+          href="https://leanpub.com/mastering-angular-signals/c/V22LAUNCH?utm_source=youtube&utm_medium=social&utm_campaign=v22-launch"
           target="_blank"
           >Mastering Angular Signals</a
         >.
